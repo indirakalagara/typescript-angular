@@ -1,0 +1,18 @@
+apiVersion: v2
+stacks:
+- id: typescript-angular
+  name: Starter Sample
+  version: 0.1.3
+  description: Runnable starter stack, copy to create a new stack
+  license: Apache-2.0
+  language: bash
+  maintainers:
+  - name: Henry Nash
+    email: henry.nash@uk.ibm.com
+    github-id: henrynash
+  default-template: simple
+  src: https://github.com/indirakalagara/typescript-angular/releases/latest/downloadtypescript-angular.v0.1.3.source.tar.gz
+  templates:
+  - id: simple
+    url: https://github.com/indirakalagara/typescript-angular/releases/latest/downloadtypescript-angular.v0.1.3.templates.simple.tar.gz
+  image: docker.io/indirakalagara/typescript-angular
